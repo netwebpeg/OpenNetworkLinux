@@ -1,0 +1,1 @@
+!include $ONL_TEMPLATES/platform-modules.yml VENDOR=netweb BASENAME=x86-64-netweb-tyrone-g48c210r ARCH=amd64 KERNELS="onl-kernel-4.19-lts-x86-64-all:amd64"

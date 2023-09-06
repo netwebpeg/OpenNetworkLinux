@@ -1,0 +1,30 @@
+---
+
+######################################################################
+#
+# platform-config for TYRONE G48C210R
+#
+######################################################################
+
+x86-64-netweb-tyrone-g48c210r-r0:
+
+  grub:
+
+    serial: >-
+      --port=0x3f8
+      --speed=115200
+      --word=8
+      --parity=no
+      --stop=1
+
+    kernel:
+      <<: *kernel-4-19
+
+    args: >-
+      console=ttyS0,115200n8
+      intel_iommu=pt
+
+  network:
+    interfaces:
+      ma1:
+        name: eth2
