@@ -2,7 +2,7 @@
  * An hwmon driver for netweb tyrone_g48c210r Power Module
  *
  * Copyright (C) 2014 netweb Technology Corporation.
- * Willy Liu <<willy_liu@edge-core.com>
+ * Hemant Agrawal <<hemant@netwebindia.com>
  *
  * Based on ad7414.c
  * Copyright 2006 Stefan Roese <sr at denx.de>, DENX Software Engineering
@@ -340,6 +340,6 @@ tyrone_g48c210r_psu_data *tyrone_g48c210r_psu_update_device(struct device *dev)
 
 module_i2c_driver(tyrone_g48c210r_psu_driver);
 
-MODULE_AUTHOR("Willy Liu <willy_liu@edge-core.com>");
+MODULE_AUTHOR("Hemant Agrawal <hemant@netwebindia.com>");
 MODULE_DESCRIPTION("tyrone_g48c210r_psu driver");
 MODULE_LICENSE("GPL");

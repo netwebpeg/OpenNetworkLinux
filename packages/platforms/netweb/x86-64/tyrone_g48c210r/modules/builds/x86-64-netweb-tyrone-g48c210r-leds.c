@@ -2,7 +2,7 @@
  * A LED driver for the tyrone_g48c210r_led
  *
  * Copyright (C) 2014 netweb Technology Corporation.
- * Willy Liu <<willy_liu@edge-core.com>
+ * Hemant Agrawal <<hemant@netwebindia.com>
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -530,6 +530,6 @@ static void __exit tyrone_g48c210r_led_exit(void)
 module_init(tyrone_g48c210r_led_init);
 module_exit(tyrone_g48c210r_led_exit);
 
-MODULE_AUTHOR("Willy Liu <willy_liu@edge-core.com>");
+MODULE_AUTHOR("Hemant Agrawal <hemant@netwebindia.com>");
 MODULE_DESCRIPTION("tyrone_g48c210r_led driver");
 MODULE_LICENSE("GPL");

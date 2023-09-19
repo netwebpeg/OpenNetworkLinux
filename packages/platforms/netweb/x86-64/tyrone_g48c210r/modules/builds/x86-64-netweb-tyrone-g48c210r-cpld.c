@@ -1,5 +1,5 @@
 /*
- * Copyright (C) Willy Liu <willy_liu@edge-core.com>
+ * Copyright (C) Hemant Agrawal <hemant@netwebindia.com>
  *
  * This module supports the cpld that hold the channel select
  * mechanism for other i2c slave devices, such as SFP.
@@ -889,7 +889,7 @@ static void __exit tyrone_g48c210r_cpld_exit(void)
 	i2c_del_driver(&tyrone_g48c210r_cpld_driver);
 }
 
-MODULE_AUTHOR("Willy Liu <willy_liu@edge-core.com>");
+MODULE_AUTHOR("Hemant Agrawal <hemant@netwebindia.com>");
 MODULE_DESCRIPTION("I2C CPLD driver");
 MODULE_LICENSE("GPL");
 
